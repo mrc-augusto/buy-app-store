@@ -1,9 +1,12 @@
 import {  Text, View } from 'react-native';
+import { styles } from './styles';
 
 export function Home() {
   return (
-    <View>
-      <Text>Olá</Text>
+    <View style={styles.container}>
+      <Text style={styles.title}>
+        Comprar
+      </Text>
     </View>
   )
 }
