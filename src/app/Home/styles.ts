@@ -7,7 +7,14 @@ export const styles = StyleSheet.create({
     paddingTop: 62,
     backgroundColor: '#d0d2d8'
   },
-  title:{
-
+  logo:{
+    width: 134,
+    height: 34
+  },
+  form:{
+    width: '100%',
+    paddingHorizontal: 16,
+    gap: 8,
+    marginTop: 24
   }
 })
