@@ -27,5 +27,36 @@ export const styles = StyleSheet.create({
     borderTopRightRadius: 24,
     backgroundColor: '#fff'
   },
-  contentHeader:{}
+  contentHeader:{
+    width: '100%',
+    flexDirection: 'row',
+    gap: 12,
+    paddingBottom: 12,
+    borderBottomWidth: 1,
+    borderBottomColor: '#e6e6e6'
+  },
+  clearButton:{
+    marginLeft: 'auto'
+  },
+  clearText:{
+    fontSize: 12,
+    fontWeight: 600,
+    color: '#828282'
+  },
+  separator:{
+    width: '100%',
+    height: 1,
+    backgroundColor: '#eef0f5',
+    marginVertical: 16
+  },
+  listContent:{
+    paddingTop: 24,
+    paddingBottom: 62
+  },
+  emptyListText:{
+    fontSize: 14,
+    color: '#828282',
+    textAlign: 'center',
+    marginTop: 32
+  }
 })
